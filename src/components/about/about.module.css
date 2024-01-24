@@ -1,0 +1,7 @@
+.container:hover .arrow{
+    transform: translateX(50%);
+}
+
+.arrow{
+    transition: transform 250ms ease-in-out;
+}

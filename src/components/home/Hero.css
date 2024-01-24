@@ -1,0 +1,7 @@
+.learn-more .arrow{
+    transition: transform 200ms ease-in;
+}
+
+.learn-more:hover .arrow{
+    transform: translateX(20%);
+}

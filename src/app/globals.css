@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+  .gradient1{
+    @apply bg-gradient-to-br from-[#f1e1c2] to-[#fcbc98];
+  }
+
+  .bodyGradient{
+    @apply bg-gradient-to-br to-[#FFDEBF] from-[#ffffff];
+  }
+
+  .container{
+    @apply flex items-center justify-center;
+  }
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  @apply bodyGradient;
+  background-repeat: no-repeat;
+}

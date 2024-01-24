@@ -1,0 +1,13 @@
+
+@keyframes __bounceInDown {
+    from {
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(100%);
+    }
+}
+
+.scroll_down{
+    animation: __bounceInDown 1s infinite;
+}
